@@ -12,13 +12,13 @@ h1, h2 {
 h2 {
     font-size: 30px;
 }
-main div {
+.content {
     width: 720px;
     text-align: center;
     margin: auto;
     padding: 30px;
 }
-main h1 {
+.title-page {
     color: #FFF;
     text-align: center;
     background-color: #851944;
@@ -52,13 +52,13 @@ blockquote {
     margin: 20px 40px;
 }
 
-footer {
+.page_footer {
     background-color: #000;
     color: #FFF;
     padding: 20px;
 }
 
-aside {
+.site-navegation{
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
@@ -70,10 +70,6 @@ aside h1 {
     
 }
 
-aside li {
-    display: inline-block;
-}
-
 nav a {
     color: inherit;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -83,4 +79,24 @@ nav a {
 
 main a {
     color: #851944;
+}
+
+.icons_social li {
+    display: inline-block;
+}
+
+article {
+    padding: 30px;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 20px;
+}
+
+.readmore {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+    
 }
