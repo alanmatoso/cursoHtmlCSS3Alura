@@ -11,6 +11,7 @@ h1, h2 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 .content {
     width: 720px;
@@ -27,7 +28,6 @@ h2 {
     border-bottom: 10px solid black;
     margin: 0;
     font-size: 60px;
-
 }
 
 strong {
@@ -50,6 +50,14 @@ blockquote {
     width: 250px;
     box-sizing: border-box;
     margin: 20px 40px;
+}
+
+.fiat {
+   float: right;
+}
+
+.petrobras {
+    float: left;
 }
 
 article {
@@ -124,4 +132,11 @@ article {
     text-align: center;
     background-color: #E6E7E8;
     
+}
+
+cite {
+    
+    float: right;
+    display: block;
+    font-style: italic;
 }
